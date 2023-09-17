@@ -85,5 +85,5 @@ class Calculus:
     def show(self):
         """Visualizes processed log data.
         """
-        for i, line in enumerate(self.__new_data):
-            print(f"{i} : {line}")
+        for line_number, new_data in enumerate(self.__new_data):
+            print(f"{line_number} : {new_data}")
